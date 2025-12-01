@@ -1,0 +1,36 @@
+# Jekyll configuration for GitHub Pages
+title: Mi Sitio Profesional
+description: Portafolio profesional con proyectos, cursos y servicios de desarrollo
+url: "https://tu-usuario.github.io"
+baseurl: "/profesional"
+
+# Si tu repo es tu-usuario.github.io, usa baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins: []
+
+# Exclude
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - README.md
+
+# Include
+include:
+  - .htaccess
+
+# Permalink
+permalink: /:categories/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

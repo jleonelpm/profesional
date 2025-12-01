@@ -1,0 +1,19 @@
+{
+  "name": "Sitio Profesional",
+  "description": "Un sitio web profesional moderno con portafolio, cursos y servicios de desarrollo",
+  "version": "1.0.0",
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "homepage": "https://tu-usuario.github.io/profesional",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/profesional.git"
+  },
+  "keywords": [
+    "portfolio",
+    "profesional",
+    "desarrollador",
+    "web",
+    "github-pages"
+  ]
+}
