@@ -4,14 +4,14 @@ Un sitio web profesional moderno y responsivo, diseñado para mostrar portafolio
 
 ## 📋 Características
 
+- ✅ **Servicios de Desarrollo**: 8 servicios profesionales (Desarrollo Web, Aplicaciones Móviles, Sistemas de Pago, Cloud, Bot, Bases de Datos, Consultoría, Soporte)
 - ✅ **Portafolio de Proyectos**: Presenta tus mejores trabajos con descripción, tecnologías y enlaces
 - ✅ **Cursos y Talleres**: Sección dedicada a mostrar tus formaciones con detalles de temas
-- ✅ **Servicios de Desarrollo**: Presenta los servicios que ofreces con iconos y descripciones
-- ✅ **Curriculum**: Experiencia laboral y educación en formato timeline
 - ✅ **Formulario de Contacto**: Formulario interactivo para que te contacten
 - ✅ **Diseño Responsivo**: Se adapta perfectamente a dispositivos móviles, tablets y desktop
 - ✅ **Interfaz Moderna**: Colores profesionales, animaciones suaves y excelente UX
 - ✅ **Sin Dependencias Externas**: Solo HTML, CSS y JavaScript vanilla
+- ✅ **Orden Estratégico**: Secciones organizadas de manera natural (Inicio → Servicios → Portafolio → Cursos → Contacto)
 
 ## 🚀 Inicio Rápido
 
@@ -183,25 +183,23 @@ El sitio se adapta automáticamente a:
 - **Tablet**: 768px - 1199px (layout adaptado)
 - **Móvil**: Menos de 768px (layout de una columna)
 
-## 🔗 Iconos
+## 📝 Secciones del Sitio
 
-Se utilizan iconos de [Font Awesome 6](https://fontawesome.com/). Algunos iconos disponibles:
+El sitio incluye las siguientes secciones organizadas estratégicamente:
 
-- `fa-globe` - Globo/Web
-- `fa-shopping-cart` - Carrito de compras
-- `fa-chart-line` - Gráfico
-- `fa-mobile-alt` - Móvil
-- `fa-robot` - Robot
-- `fa-cloud` - Nube
-- `fa-briefcase` - Maletín
-- `fa-graduation-cap` - Gorro de graduación
-- `fa-envelope` - Correo
-- `fa-phone` - Teléfono
-- `fa-map-marker-alt` - Ubicación
-- `fa-linkedin` - LinkedIn
-- `fa-github` - GitHub
-
-Ver más en [Font Awesome](https://fontawesome.com/icons).
+1. **Inicio (Hero)** - Presentación y llamada a la acción
+2. **Servicios** - 8 servicios profesionales:
+   - Desarrollo Web Empresarial
+   - Aplicaciones Móviles
+   - Integración de Sistemas de Pago
+   - Infraestructura Cloud
+   - Bot
+   - Bases de Datos
+   - Consultoría en Soluciones TIC
+   - Soporte
+3. **Portafolio** - 6 proyectos representativos
+4. **Cursos y Talleres** - 4 cursos profesionales
+5. **Contacto** - Formulario interactivo y redes sociales
 
 ## 🐛 Troubleshooting
 
@@ -217,38 +215,19 @@ Ver más en [Font Awesome](https://fontawesome.com/icons).
 - Actualmente muestra una alerta. Para envíos reales, necesitas un backend
 - Considera usar servicios como [Formspree](https://formspree.io/) o [EmailJS](https://www.emailjs.com/)
 
-## 📧 Integración de Formulario de Contacto
+## 📄 Archivos incluidos
 
-Para que el formulario envíe emails realmente, integra uno de estos servicios:
-
-### Con Formspree:
-
-```javascript
-contactForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    
-    await fetch('https://formspree.io/f/TU_FORM_ID', {
-        method: 'POST',
-        body: new FormData(contactForm),
-        headers: { 'Accept': 'application/json' }
-    });
-    
-    alert('¡Mensaje enviado con éxito!');
-    contactForm.reset();
-});
-```
-
-### Con EmailJS:
-
-```javascript
-emailjs.init('TU_PUBLIC_KEY');
-
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    emailjs.sendForm('service_id', 'template_id', contactForm)
-        .then(() => alert('¡Mensaje enviado!'));
-});
-```
+- `index.html` - Página HTML con todas las secciones
+- `styles.css` - Estilos CSS3 responsivos
+- `script.js` - Funcionalidad JavaScript
+- `README.md` - Documentación completa
+- `QUICKSTART.md` - Guía de inicio rápido
+- `PERSONALIZATION.md` - Cómo personalizar el sitio
+- `DEPLOYMENT.md` - Instrucciones de despliegue en GitHub Pages
+- `CHECKLIST.md` - Checklist de personalización
+- `_config.yml` - Configuración de Jekyll
+- `.gitignore` - Archivos a ignorar en Git
+- `package.json` - Metadata del proyecto
 
 ## 📊 Agregar Analytics
 
