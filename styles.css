@@ -387,7 +387,7 @@ body {
 }
 
 .service-card:hover {
-    background: var(--primary-color);
+    background: #1e90ff;
     color: white;
     transform: translateY(-10px);
     box-shadow: var(--shadow);
@@ -641,7 +641,7 @@ body {
 
 /* Footer */
 .footer {
-    background: var(--text-color);
+    background-color: var(--bg-light);
     color: white;
     padding: 40px 20px;
     text-align: center;
