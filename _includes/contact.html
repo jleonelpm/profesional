@@ -1,60 +1,33 @@
-<!-- Contacto -->
+<!-- Contacto (dos columnas, limpio) -->
 <section id="contacto" class="section">
-    <div class="container">
-        <h2 class="section-title">Contacto</h2>
-        <div class="contact-content">
-            <div class="contact-form">
-                <form id="contactForm">
-                    <div class="form-group">
-                        <input type="text" placeholder="Tu Nombre" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Tu Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Asunto" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-button">Enviar Mensaje</button>
-                </form>
-            </div>
+  <div class="container">
+    <h2 class="section-title">Contacto</h2>
 
-            <div class="contact-info">
-                <h3>Información de Contacto</h3>
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <div>
-                        <h4>Email</h4>
-                        <p><a href="mailto:tu@email.com">jleonelpm@gmail.com</a></p>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <div>
-                        <h4>Teléfono</h4>
-                        <p><a href="tel:9851163050">9851163050</a></p>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div>
-                        <h4>Valladolid</h4>
-                        <p>Yucatán</p>
-                    </div>
-                </div>
-                <div class="social-links">
-                    <h4>Redes Sociales</h4>
-                    <div class="social-icons">
-                        <a href="www.linkedin.com/in/jleonelpm
-
-" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/jleonelpm" title="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://www.facebook.com/leotechcoach/" title="Facebook"><i class="fab fa-facebook"></i></a>
-                    </div>
-                </div>
-            </div>
+    <div class="contact-content">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+          <h3>WhatsApp</h3>
+          <p>Envíame un mensaje directo por WhatsApp.</p>
+          <a class="whatsapp-button" href="https://wa.me/529851163050?text=Hola%20Leonel%2C%20te%20contacto%20desde%20tu%20sitio%20web" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> Abrir en WhatsApp</a>
         </div>
+
+        <div class="contact-card">
+          <div class="contact-icon mail"><i class="fas fa-envelope"></i></div>
+          <h3>Correo</h3>
+          <p>Envíame un correo por email.</p>
+          <p><a class="email-link" href="mailto:jleonelpm@gmail.com">jleonelpm@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="social-links" style="margin-top:28px;text-align:center;grid-column:1/-1;">
+        <h4 style="margin-bottom:12px">Redes Sociales</h4>
+        <div class="social-icons" style="display:flex;gap:14px;justify-content:center;">
+          <a href="https://www.linkedin.com/in/jleonelpm" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/jleonelpm" title="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/leotechcoach/" title="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
